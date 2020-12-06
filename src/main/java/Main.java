@@ -13,7 +13,7 @@ public class Main {
     private static final String MAX_SPANNING_TREE_VOL = "max_spanning_tree_vol.gexf";
     private static final String MAX_SPANNING_TREE_LOG = "max_spanning_tree_log.gexf";
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         /* Fill graphs from csv files*/
         WeightedGraph volGraph = new WeightedGraph()
                 .loadGraphFromCsvFile(VOL_FILE_NAME);
