@@ -1,6 +1,6 @@
 # Maximum-Spanning-Tree
 
-#### The application perform the following steps:
+#### The application does the following
 * Load graphs from csv files
 * Remove all loosely connected edges
 * Finding the Maximum Spanning tree of the sorted graph
